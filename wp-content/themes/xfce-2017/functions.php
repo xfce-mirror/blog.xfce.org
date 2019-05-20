@@ -51,7 +51,7 @@ if( function_exists( 'register_nav_menu' ) ) {
 add_action( 'wp_enqueue_scripts', 'xfce_styles' );
 
 function xfce_styles( ) {
-	wp_enqueue_style( 'xfce-base', '//cdn.xfce.org/css.php?site=blog' );
+	wp_enqueue_style( 'xfce-base', '//cdn.xfce.org/style/css.php?site=blog' );
 }
 
 ?>
