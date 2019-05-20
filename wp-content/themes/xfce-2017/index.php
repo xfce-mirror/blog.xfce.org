@@ -8,7 +8,7 @@
 	<meta name="copyright" content="Copyright 2003–<?php echo date( 'Y' ); ?> Xfce Development Team" />
 	<meta name="description" content="<?php bloginfo( 'name' ); ?><?php if( strlen( get_bloginfo( 'description' ) ) > 0 ) { ?> – <?php bloginfo( 'description' ); } ?>" />
 
-	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri( ); ?>/images/favicon.ico">
+	<link rel="shortcut icon" href="//cdn.xfce.org/style/favicon.ico">
 	<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
 
 	<?php wp_head( ); ?>
@@ -62,7 +62,7 @@
 	</div>
 
 	<div id="footer" class="group">
-		<p>Copyright 2003-2017 <a href="https://xfce.org/about/credits">Xfce Development Team</a>.</p>
+		<p>Copyright 2003–2017 <a href="https://xfce.org/about/credits">Xfce Development Team</a>.</p>
 		<?php wp_footer( ); ?>
 	</div>
 
